@@ -5,39 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = "style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-   .code-container {
-    position: relative;
-    margin-bottom: 1em;
-}
-
-pre {
-    background-color: #f4f4f4;
-    padding: 1em;
-    border-radius: 5px;
-    overflow-x: auto;
-}
-
-.copy-button {
-    position: absolute;
-    top: 0.5em;
-    right: 0.5em;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 0.5em 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.copy-button:hover {
-    background-color: #0056b3;
-}
-
-
- </head>
+</head>
  <body>
 <div class = "p-4">
     <h1 class = "font-bold text-5xl mb-4">Gathering All AI Tools In one Website</h1>

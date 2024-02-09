@@ -36,23 +36,7 @@ pre {
     background-color: #0056b3;
 }
 
-  </style>
-  <script>
-  // JavaScript Functionality
-function copyCode() {
-    const codeElement = document.querySelector('.code-container code');
-    const range = document.createRange();
-    range.selectNode(codeElement);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-    // Optionally, you can provide visual feedback that the code has been copied
-    alert('Code copied to clipboard!');
-}
 
-   
-  </script>
  </head>
  <body>
 <div class = "p-4">

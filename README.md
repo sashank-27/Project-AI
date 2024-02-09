@@ -15,15 +15,13 @@
         <li><span class = "font-bold text-1xl">Tool Listings:</span> Browse through a curated list of AI tools categorized based on their functionality and application domains.</li>
         <li><span class = "font-bold text-1xl">Search Functionality: </span> Easily search for specific AI tools by name, keyword, or category.</li>
         <li><span class = "font-bold text-1xl">Detailed Descriptions:</span> Each tool listing includes detailed descriptions, features, and links for further exploration.</li>
-        <li><span class = "font-bold text-1xl">Bookmarking:</span> Save your favorite tools for quick access in the future.</li>
+        <li><span class = "font-bold text-1xl">Bookmarking:</span> Save your favourite tools for quick access in the future.</li>
         <li><span class = "font-bold text-1xl"> Engagement: </span>Join discussions, share insights, and connect with other AI enthusiasts in the community forum.</li>
     </ul>
-    <p>Download git and install git in your laptop with given link below</p>
+    <p>Download git and install git on your laptop with the given link below</p>
     <div class="code-container">
         <pre>
-            <code>
-                https://git-scm.com/download/win
-            </code>
+            <code>https://git-scm.com/download/win</code>
         </pre>
         <button class="copy-button" onclick="copyCode()">Copy</button>
     </div>

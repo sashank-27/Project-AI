@@ -6,6 +6,53 @@
     <title>Document</title>
     <link rel = "stylesheet" href = "style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+   .code-container {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.copy-button {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: #0056b3;
+}
+
+  </style>
+  <script>
+  // JavaScript Functionality
+function copyCode() {
+    const codeElement = document.querySelector('.code-container code');
+    const range = document.createRange();
+    range.selectNode(codeElement);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    // Optionally, you can provide visual feedback that the code has been copied
+    alert('Code copied to clipboard!');
+}
+
+   
+  </script>
  </head>
  <body>
 <div class = "p-4">
